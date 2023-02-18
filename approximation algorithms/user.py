@@ -30,7 +30,7 @@ def gen_data(n):
     C = matrix(C)
 
 
-    ## input PMU variance $\sigma$
+    ## input PMU variance $\sigma^2$
     sigma = pd.read_csv(os.getcwd()+'/PMU_variance_118.csv',
                          encoding = 'utf-8',sep=',')
     sigma = array(sigma)
