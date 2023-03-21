@@ -10,6 +10,6 @@ For our paper "D-optimal Data Fusion:Exact and Approximation Algorithms", and de
 
 # Thank you 
 
-Thank you for your interest in D-optimal data fusion. Please let us know if you encounter any issues using this code, or have comments or questions. Feel free to email me anytime.
+Thank you for your interest in D-optimal data fusion. Please let me know if you encounter any issues using this code, or have comments or questions. Feel free to email me anytime.
 
 Yongchun Li ycli@gatech.edu
