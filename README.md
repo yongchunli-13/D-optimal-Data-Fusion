@@ -1,4 +1,4 @@
-# D-optimal Data Fusion:Exact and Approximation Algorithms
+# D-optimal Data Fusion: Exact and Approximation Algorithms
 
 This project contains the implementations of exact and approximation algorithms for solving D-optimal Data Fusion (DDF) tested on IEEE 118- and 300-bus instances. The datasets can be found in the "data" folder.
 
