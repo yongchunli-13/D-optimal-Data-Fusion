@@ -1,6 +1,6 @@
 # D-optimal Data Fusion:Exact and Approximation Algorithms
 
-This project contains the implementations of exact and approximation algorithms for solving D-optimal Data Fusion (DDF) tested on IEEE 118- and 300-bus instances.
+This project contains the implementations of exact and approximation algorithms for solving D-optimal Data Fusion (DDF) tested on IEEE 118- and 300-bus instances and the Polish 2383-bus instance.
 
 Specifically, we implement the greedy, local search and randomized sampling algorithms, which correspond to files greedy.py, local_search.py and sampling.py in the "approximation algorithms" folder, respectively. 
 
