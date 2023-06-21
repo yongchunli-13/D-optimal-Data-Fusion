@@ -2,7 +2,7 @@
 
 This project contains the implementations of exact and approximation algorithms for solving D-optimal Data Fusion (DDF) tested on IEEE 118- and 300-bus instances and on Polish 2383-bus instance. The datasets can be found in the "data" folder, and the results used to generate figures in our paper can be found in the "results" folder. 
 
-Specifically, we implement the greedy, local search and randomized sampling algorithms, which correspond to files greedy.py, local_search.py and sampling.py in the "approximation algorithms" folder, respectively. 
+More specifically, we implement the greedy, local search and randomized sampling algorithms, which correspond to files greedy.py, local_search.py and sampling.py in the "approximation algorithms" folder, respectively. 
 
 Furthermore, we implement the Branch-and-Bound algorithm along with optimality cuts to solve DDF to optimality,  which correspond to files branch_and_bound.py, optcut.py in the "exact Branch-and-Bound algorithm" folder, respectively.
 
