@@ -46,7 +46,13 @@ def gen_data_mddf(n):
     
     E = np.eye(n, dtype=int) # identity matrix 
     
-    tempC = matrix(scipy.linalg.sqrtm(C.I)) # compute the square root of C^-1
+    a, b = np.linalg.eigh(C)
+    sqrta = [0]*n
+    for i in range(n):
+        sqrta[i] = 1/sqrt(a[i])
+    
+    tempC = b*np.diag(sqrta)*b.T  # compute the square root of C^-1
+    
     
     B = [[sqrt(gamma[i])* (tempC[i]) for i in range(n)]]
     B = array(B[0])
