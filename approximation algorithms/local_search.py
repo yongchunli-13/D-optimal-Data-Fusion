@@ -25,6 +25,7 @@ def localsearch(n, s):
     
     ## greedy algorithm
     bestf, bestx, X, Xs, gtime = grd(n, s)
+    Xs = X.I
     print("The running time of Greedy algorithm is: ", gtime)
     print("The output value of Greedy algorithm is: ", bestf)
 
